@@ -1,0 +1,17 @@
+{
+  "name": "electron-cert-auth-issue-client",
+  "productName": "electron-cert-auth-issue-client",
+  "description": "Electron application to demonstrate issue with clearAuthCache()",
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Matteo Hausner",
+  "contributors": [
+    "Christian Niessner"
+  ],
+  "scripts": {
+    "start": "electron . --ignore-certificate-errors"
+  },
+  "devDependencies": {
+    "electron": "7.1.1"
+  }
+}
